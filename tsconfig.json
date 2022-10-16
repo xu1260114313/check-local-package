@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noUnusedLocals": false,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "lib": [
+            "es2015"
+        ]
+    },
+	"include": [
+		"src/**/*"
+	],
+    "exclude": [
+        "node_modules/"
+    ]
+}
